@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+    <ModulePrefs title="twitter" />
+    <Require feature="dynamic-height"/>
+    <Require feature="settitle"/>
+</ModulePrefs>
+<Content type="html" view="home">
+    <![CDATA[
+        <iframe src="http://www.twittergadget.com/gadget.asp" height="380" width="300" frameborder="0" border="0" cellpadding="0" cellspacing="0" scrolling="no" ></iframe>
+    ]]>
+</Content>
+<Content type="html" view="canvas">
+    <![CDATA[
+        <iframe src="http://www.twittergadget.com/gadget.asp" height="640" width="1000" frameborder="0" border="0" cellpadding="0" cellspacing="0" scrolling="no" ></iframe>
+    ]]>
+</Content>
+</Module>
